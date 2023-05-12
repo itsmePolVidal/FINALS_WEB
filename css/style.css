@@ -6,6 +6,9 @@
     list-style: none;
 
 }
+.carousel{
+    margin: 150px 0px;
+}
 
 
 body{
@@ -20,7 +23,7 @@ body{
 }
 .categories{
 
-    padding-top: 60px;
+    
 }
 .dropdown-menu li a:hover{
     color:rgb(25, 1, 98)
@@ -266,13 +269,59 @@ margin-top: 10px;
 
 
 h2{
-    padding-top: 150px;}
+  
+}
+
+
+#CHOSE .row h2:hover{
+    color: #b5b5b5;
+}
+
+#check{
+   margin-left: 100px;
+   margin-top: -100px;
+}
+.wrapper{
+    margin-top: -290px;
+    padding-top: 100px;
+    width: 450px;
+   
+    padding: 50px;
+    
+    
+}
+#input .row{
+    
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    min-height: 100vh;
+}
+.wrapper .input-data{
+    height: 40px;
+    width: 100%;
+    position: relative;
+}
+
+.wrapper .input-data input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid silver;
+}
+.wrapper .input-data label{
+    font-size: 30px;
+}
+.container #nr{
+    visibility: hidden;
+}
 
 @media screen and (max-width: 992px){
    
-nav{
-    flex: ;
-}
+    #check{
+        margin-left: 60px;
+        margin-top: -100px;
+     }
     
 
 }
@@ -282,7 +331,10 @@ nav{
 
 @media screen and (max-width: 600px) {
 
-    
+    #check{
+        margin-left: 50px;
+        margin-top: -100px;
+     }
     .footer{
         background: black;
         color: #8a8a8a;

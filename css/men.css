@@ -181,3 +181,19 @@ h4{
 
 
 }
+.social-icon {
+    margin-right: 10px;
+    color: #ffffff; /* Default color */
+    transition: color 0.3s;
+    align-items: center;
+  }
+
+  .fa-facebook-f:hover {
+    color: #0325ff; /* Color on hover */
+  }
+  .fa-instagram:hover {
+    color: #584318; /* Color on hover */
+  }
+  .fa-youtube:hover {
+    color: #ff0000; /* Color on hover */
+  }

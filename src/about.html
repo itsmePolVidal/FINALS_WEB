@@ -35,6 +35,7 @@
     transform-origin: bottom
 }
 
+
 .card:after{
     
     content:"";
@@ -53,6 +54,9 @@
     transform:scaleY(1);
 }
 
+.social-icon{
+  margin: 1%;
+}
 
 .fonts{
     font-size:11px;
@@ -91,6 +95,22 @@
        color:#fff;
         height:40px;
 }
+.social-icon {
+      margin-right: 10px;
+      color: #000; /* Default color */
+      transition: color 0.3s;
+    }
+
+    .fa-facebook-f:hover {
+      color: #0325ff; /* Color on hover */
+    }
+    .fa-instagram:hover {
+      color: #584318; /* Color on hover */
+    }
+    .fa-youtube:hover {
+      color: #ff0000; /* Color on hover */
+    }
+   
     </style>
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -123,8 +143,9 @@
    
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
         <div class="container-fluid">
-          <img src="/assets/logoW.png" height="100px" alt="">
-          <h1>ᜃᜒᜉ᜔</h1>
+          <a href="index.html">
+            <img src="../assets/logoW.png" height="100px" alt="">
+          </a><h1>ᜃᜒᜉ᜔</h1>
           <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
             <div class="container-fluid">
             
@@ -151,9 +172,7 @@
                       <li><a class="dropdown-item" href="kids.html">KIDS SECTION</a></li>
                     </ul>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="order.html">ORDER</a>
-                  </li> 
+                
                   <li class="nav-item">
                     <a class="nav-link" href="about.html">ABOUT US</a>
                   </li> 
@@ -195,13 +214,11 @@
                         
                         </div>
                         
-                         <ul class="social-list">
-                            <li><i class="fa fa-facebook"></i></li>
-                            <li><i class="fa fa-dribbble"></i></li>
-                            <li><i class="fa fa-instagram"></i></li>
-                            <li><i class="fa fa-linkedin"></i></li>
-                            <li><i class="fa fa-google"></i></li>
-                        </ul>
+                        <div class="social-icons">
+                          <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                          <a href="https://www.instagram.com/keepcustomdesigns/" class="social-icon"><i class="fab fa-instagram"></i></a>
+                          <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                        </div>
                         
                         <div class="buttons">
                             <a href="contact.html">
